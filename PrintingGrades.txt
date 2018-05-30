@@ -1,0 +1,26 @@
+Printing Grades
+
+INPUT: 
+the student number, name and test score (out of 50)
+
+PROCESSING:
+DOWHILE more records exist
+Receive student number, name and test score (out of 50)
+IF (testScore/50) * 100 > = 90
+	letterGrade = A
+ELSE IF (testScore/50)* 100 > = 80
+	letterGrade = B
+ELSE IF (testScore/50)* 100 > = 70
+	letterGrade = C
+ELSE IF (testScore/50) * 100 > = 60
+	letterGrade = D
+ELSE IF (testScore/50) * 100 < 60
+	letterGrade = F
+ENDIF
+display student’s number, name, test score (out of 50) and letter grade
+move to next line
+ENDDO
+
+
+OUTPUTS:
+student’s number, name, test score (out of 50) and letter grade on the report
